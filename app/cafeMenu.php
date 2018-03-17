@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="../css/styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,12 +9,12 @@
 </head>
 <body>
   <h2>Sandbox</h2>
-  <div class='banner'> 
+  <div class='banner'>
 
     <?php
       $dateString = date('D M d h:i:s');
       echo "Welcome to the Cafe!</br>";
-      $menuFile = fopen("data/specials.txt", "r");
+      $menuFile = fopen("../data/specials.txt", "r");
 
       // priming read
       $menu = fgetcsv($menuFile );
