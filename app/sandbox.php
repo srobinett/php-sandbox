@@ -8,7 +8,7 @@
   <title>Sandbox</title>
 </head>
 <body>
-  <h2>Sandbox</h2>
+  <h2>Sandbox</h2>  
 
 <?php
 

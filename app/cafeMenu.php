@@ -9,7 +9,7 @@
 </head>
 <body>
   <h2>Sandbox</h2>
-  <div class='banner'>
+  <div class='banner'> 
 
     <?php
       $dateString = date('D M d h:i:s');
