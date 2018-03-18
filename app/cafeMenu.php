@@ -12,8 +12,8 @@
   <div class='banner'>
 
     <?php
-      $dateString = date('D M d h:i:s');
-      echo "Welcome to the Cafe!</br>";
+      $dateString = date('D M d h:i');
+      echo "Welcome to the Cafe</br>";
       $menuFile = fopen("../data/specials.txt", "r");
 
       // priming read
